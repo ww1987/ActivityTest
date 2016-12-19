@@ -42,6 +42,8 @@ public class FirstActivity extends AppCompatActivity {
         Button btn1_1 = (Button) findViewById(R.id.button_1_1);
         Button btn1_2 = (Button) findViewById(R.id.button_1_2);
         Button btn1_3 = (Button) findViewById(R.id.button_1_3);
+        Button start_nromal = (Button) findViewById(R.id.start_nromal);
+        Button start_dialog = (Button) findViewById(R.id.start_dialog);
         but1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -81,6 +83,24 @@ public class FirstActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(FirstActivity.this,SecondActivity.class);
                 startActivityForResult(intent,1);
+            }
+        });
+
+
+        start_nromal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(FirstActivity.this,NormalActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        start_dialog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(FirstActivity.this,DialogActivity.class);
+                startActivity(intent);
             }
         });
 

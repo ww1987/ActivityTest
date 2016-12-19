@@ -24,4 +24,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="获取activity返回数据"/>
+    <Button
+        android:id="@+id/start_nromal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start_nromal"/>
+    <Button
+        android:id="@+id/start_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start_dialog"/>
 </LinearLayout>

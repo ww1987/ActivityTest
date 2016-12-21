@@ -35,7 +35,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".NormalActivity" />
-        <activity android:name=".DialogActivity" android:theme="@android:style/Theme.Dialog"></activity>
+        <activity
+            android:name=".DialogActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".ListViewActivity"></activity>
     </application>
 
 </manifest>

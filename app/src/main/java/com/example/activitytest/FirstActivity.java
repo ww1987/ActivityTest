@@ -47,7 +47,7 @@ public class FirstActivity extends AppCompatActivity {
         Button btn1_2 = (Button) findViewById(R.id.button_1_2);
         Button btn1_3 = (Button) findViewById(R.id.button_1_3);
         Button start_nromal = (Button) findViewById(R.id.start_nromal);
-        Button start_dialog = (Button) findViewById(R.id.start_dialog);
+        Button btn_lv = (Button) findViewById(R.id.btn_lv);
         but1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -100,10 +100,10 @@ public class FirstActivity extends AppCompatActivity {
         });
 
 
-        start_dialog.setOnClickListener(new View.OnClickListener() {
+        btn_lv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(FirstActivity.this,DialogActivity.class);
+                Intent intent = new Intent(FirstActivity.this,ListViewActivity.class);
                 startActivity(intent);
             }
         });

@@ -30,8 +30,8 @@
         android:layout_height="wrap_content"
         android:text="start_nromal"/>
     <Button
-        android:id="@+id/start_dialog"
+        android:id="@+id/btn_lv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="start_dialog"/>
+        android:text="btn_lv"/>
 </LinearLayout>
